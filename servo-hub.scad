@@ -140,9 +140,9 @@ module wheelgroup(s=true, w=true, h=true, c=true){
     if (c) translate([0,0,2+10+5/2+13-4]) hubcap();
 }
 
-/* wheelgroup(w=false, h=false); */
+wheelgroup(w=true, h=true, s=false);
 
 /* wheeldisk(); */
 
 /* servohub2(); */
-hubcap();
+//hubcap();
